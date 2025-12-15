@@ -48,6 +48,14 @@ export const testimonialsData = [
         image: profile_img_2,
         jobTitle:'UI Deginer'
     },
+
+    {
+      id: 3,
+      text: "I've been using bg.removal for nearly 4 months, The results are quite impressive.I recommend this app to every other devs as well",
+        author: "James Richards",
+        image: profile_img_1,
+        jobTitle:'AI Engineer'
+    }
 ];
 
 export const plans = [
