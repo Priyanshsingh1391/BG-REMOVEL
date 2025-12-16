@@ -8,7 +8,7 @@ import userModel from "../models/userModal.js";
 const removeBgImage = async(req,res)=>{
     try {
 
-        const {clerkId} = req.body;
+        const clerkId = req.clerkId;
 
         const user = await userModel.findOne({clerkId});
         if(!user){
